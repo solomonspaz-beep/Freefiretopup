@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Fire Diamonds Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🔥 Free Fire Diamonds</h1>
+  <p>Fast • Safe • Licensed Seller</p>
+</header>
+
+<main>
+  <section class="packages">
+    <div class="card">
+      <h2>19999 Diamonds</h2>
+      <p class="price">₦4,200</p>
+      <button onclick="openForm('19999 Diamonds')">Buy Now</button>
+    </div>
+
+    <div class="card">
+      <h2>31000 Diamonds</h2>
+      <p class="price">₦5,800</p>
+      <button onclick="openForm('31000 Diamonds')">Buy Now</button>
+    </div>
+
+    <div class="card">
+      <h2>50200 Diamonds</h2>
+      <p class="price">₦6,900</p>
+      <button onclick="openForm('50200 Diamonds')">Buy Now</button>
+    </div>
+
+    <div class="card popular">
+      <h2>100060 Diamonds</h2>
+      <p class="price">₦11,200</p>
+      <button onclick="openForm('100060 Diamonds')">Buy Now</button>
+    </div>
+  </section>
+
+  <!-- PROXY SERVER SECTION -->
+  <section class="packages proxy-section">
+    <div class="card proxy-card">
+      <h2>🌐 Proxy Server</h2>
+      <p class="price">₦7,000</p>
+      <button onclick="openForm('Proxy Server')">Buy Now</button>
+    </div>
+  </section>
+</main>
+
+<!-- PAYMENT MODAL -->
+<div id="paymentModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeForm()">✖</span>
+    <h3 id="selectedPackage"></h3>
+
+    <p id="inputLabel"><strong>Enter your Free Fire UID before paying</strong></p>
+
+    <input type="text" id="uid" placeholder="Enter Free Fire UID">
+    <input type="tel" id="phone" placeholder="Enter your phone number" style="display: none;">
+
+    <button onclick="goToPaystack()">Pay Now</button>
+
+    <p id="message"></p>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 Free Fire Diamonds Store • Licensed Seller</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
