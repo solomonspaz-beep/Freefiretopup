@@ -1,11 +1,11 @@
 const API_URL = 'https://freefiretopup-hd4w.onrender.com/api/orders';
 
 const paystackLinks = {
-  "19999 Diamonds": "https://paystack.shop/pay/7y4tcdmmb6",
-  "31000 Diamonds": "https://paystack.shop/pay/l1lbo6ex1z",
-  "50200 Diamonds": "https://paystack.shop/pay/xlj3u4u4s-",
-  "100060 Diamonds": "https://paystack.shop/pay/fe72y10rp5",
-  "Proxy Server": "https://paystack.shop/pay/y6jql6u89j"
+  "19999 Diamonds": "https://paystack.shop/pay/5leovfk0dg",
+  "31000 Diamonds": "https://paystack.shop/pay/937dw7dkgf",
+  "50200 Diamonds": "https://paystack.shop/pay/uh0uz-e0jo",
+  "100060 Diamonds": "https://paystack.shop/pay/cmi0magsg5",
+  "Proxy Server": "https://paystack.shop/pay/o16akr-2m9"
 };
 
 function openForm(packageName) {
